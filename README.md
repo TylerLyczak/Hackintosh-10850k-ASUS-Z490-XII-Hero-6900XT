@@ -63,7 +63,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ---
 
 ### OpenCore
-* OpenCore 0.6.7 RELEASE and DEBUG
+* OpenCore 0.7.6 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
