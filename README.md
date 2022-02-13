@@ -92,7 +92,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 * NVMeFix
     * v1.0.9
     * [Link](https://github.com/acidanthera/NVMeFix)
-* RTCMemoryFixup (See if we need this)
+* RTCMemoryFixup
     * v1.0.7
     * [Link](https://github.com/acidanthera/RTCMemoryFixup)
 * SMCProcessor
