@@ -63,31 +63,31 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ---
 
 ### OpenCore
-* OpenCore 0.7.6 RELEASE and DEBUG
+* OpenCore 0.7.8 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
 * Airportitlwm 
-    * v2.0.0 (Monterey version)
+    * v2.1.0 (Monterey version)
     * [Link](https://github.com/OpenIntelWireless/itlwm)
 * AppleALC
-    * v1.6.7
+    * v1.6.9
     * [Link](https://github.com/acidanthera/AppleALC)
 * CPUFriend
     * v1.2.4
     * Also has CPUFriendDataProvider for power configs for 10850k
     * [Link](https://github.com/acidanthera/CPUFriend)
 * IntelBluetoothFirmware
-    * v2.0.1
+    * v2.1.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 * IntelBluetoothInjector
-    * v2.0.1
+    * v2.1.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 * IntelMausi
     * v1.0.7
     * [Link](https://github.com/acidanthera/IntelMausi)
 * Lilu
-    * v1.5.8
+    * v1.6.0
     * [Link](https://github.com/acidanthera/Lilu)
 * NVMeFix
     * v1.0.9
@@ -111,7 +111,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
     * v1.2.8
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * WhateverGreen
-    * v1.5.5
+    * v1.5.7
     * [Link](https://github.com/acidanthera/WhateverGreen)
 
 
