@@ -10,7 +10,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ## Mac Version
 ---
 
-* Mac OS Monterey 12.0.1
+* Mac OS Monterey 12.2.1
 
 
 ## Hardware
@@ -63,7 +63,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ---
 
 ### OpenCore
-* OpenCore 0.7.8 RELEASE and DEBUG
+* OpenCore 0.8.3 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
@@ -71,47 +71,47 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
     * v2.1.0 (Monterey version)
     * [Link](https://github.com/OpenIntelWireless/itlwm)
 * AppleALC
-    * v1.6.9
+    * v1.7.4
     * [Link](https://github.com/acidanthera/AppleALC)
 * CPUFriend
-    * v1.2.4
+    * v1.2.6
     * Also has CPUFriendDataProvider for power configs for 10850k
     * [Link](https://github.com/acidanthera/CPUFriend)
 * IntelBluetoothFirmware
-    * v2.1.0
+    * v2.2.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 * IntelBluetoothInjector
-    * v2.1.0
+    * v2.2.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 * IntelMausi
     * v1.0.7
     * [Link](https://github.com/acidanthera/IntelMausi)
 * Lilu
-    * v1.6.0
+    * v1.6.2
     * [Link](https://github.com/acidanthera/Lilu)
 * NVMeFix
-    * v1.0.9
+    * v1.1.0
     * [Link](https://github.com/acidanthera/NVMeFix)
 * RTCMemoryFixup
     * v1.0.7
     * [Link](https://github.com/acidanthera/RTCMemoryFixup)
 * SMCProcessor
-    * v1.2.8
+    * v1.3.0
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * SMCSuperIO
-    * v1.2.8
+    * v1.3.0
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * USBToolBox
-    * v1.1.0
+    * v1.1.1
     * [Link](https://github.com/USBToolBox/kext)
 * UTBMap
     * Mapping of the ports for motherboard
     * [Link](https://github.com/USBToolBox/kext)
 * VirtualSMC
-    * v1.2.8
+    * v1.3.0
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * WhateverGreen
-    * v1.5.7
+    * v1.6.1
     * [Link](https://github.com/acidanthera/WhateverGreen)
 
 
