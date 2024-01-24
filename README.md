@@ -10,7 +10,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ## Mac Version
 ---
 
-* Mac OS Monterey 12.2.1
+* Mac OS Sonoma 14.1.2
 
 
 ## Hardware
@@ -63,43 +63,47 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ---
 
 ### OpenCore
-* OpenCore 0.8.3 RELEASE and DEBUG
+* OpenCore 0.9.6 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
 * Airportitlwm 
-    * v2.1.0 (Monterey version)
+    * v2.2.0 (Ventura version)
     * [Link](https://github.com/OpenIntelWireless/itlwm)
+    * This is currently not working since there is no Sonoma release currently
 * AppleALC
-    * v1.7.4
+    * v1.8.7
     * [Link](https://github.com/acidanthera/AppleALC)
 * CPUFriend
-    * v1.2.6
+    * v1.2.7
     * Also has CPUFriendDataProvider for power configs for 10850k
     * [Link](https://github.com/acidanthera/CPUFriend)
 * IntelBluetoothFirmware
-    * v2.2.0
+    * v2.3.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-* IntelBluetoothInjector
-    * v2.2.0
-    * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+* ~~IntelBluetoothInjector~~
+    * ~~v2.2.0~~
+    * ~~[Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)~~
+* BlueToolFixup
+    * v2.3.0
+    * [Link](https://github.com/acidanthera/BrcmPatchRAM)
 * IntelMausi
     * v1.0.7
     * [Link](https://github.com/acidanthera/IntelMausi)
 * Lilu
-    * v1.6.2
+    * v1.6.7
     * [Link](https://github.com/acidanthera/Lilu)
 * NVMeFix
-    * v1.1.0
+    * v1.1.1
     * [Link](https://github.com/acidanthera/NVMeFix)
 * RTCMemoryFixup
     * v1.0.7
     * [Link](https://github.com/acidanthera/RTCMemoryFixup)
 * SMCProcessor
-    * v1.3.0
+    * v1.3.2
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * SMCSuperIO
-    * v1.3.0
+    * v1.3.2
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * USBToolBox
     * v1.1.1
@@ -111,8 +115,11 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
     * v1.3.0
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * WhateverGreen
-    * v1.6.1
+    * v1.6.6
     * [Link](https://github.com/acidanthera/WhateverGreen)
+* CpuTscSync
+    * v1.1.0
+    * [Link](https://github.com/acidanthera/CpuTscSync)
 
 
 ## Feedback
