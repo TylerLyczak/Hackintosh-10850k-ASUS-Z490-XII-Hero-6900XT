@@ -10,7 +10,7 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ## Mac Version
 ---
 
-* Mac OS Sonoma 14.1.2
+* Mac OS Sonoma 14.5.0
 
 
 ## Hardware
@@ -63,29 +63,28 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 ---
 
 ### OpenCore
-* OpenCore 0.9.6 RELEASE and DEBUG
+* OpenCore 1.0.0 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
 * Airportitlwm 
-    * v2.2.0 (Ventura version)
+    * v2.3.0-alpha (Sonomaa version)
     * [Link](https://github.com/OpenIntelWireless/itlwm)
-    * This is currently not working since there is no Sonoma release currently
 * AppleALC
-    * v1.8.7
+    * v1.9.0
     * [Link](https://github.com/acidanthera/AppleALC)
 * CPUFriend
     * v1.2.7
     * Also has CPUFriendDataProvider for power configs for 10850k
     * [Link](https://github.com/acidanthera/CPUFriend)
 * IntelBluetoothFirmware
-    * v2.3.0
+    * v2.4.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 * ~~IntelBluetoothInjector~~
     * ~~v2.2.0~~
     * ~~[Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)~~
 * BlueToolFixup
-    * v2.3.0
+    * v2.6.8
     * [Link](https://github.com/acidanthera/BrcmPatchRAM)
 * IntelMausi
     * v1.0.7
