@@ -2,18 +2,15 @@
 ---
 
 ## Description
----
 
 This repository holds my current EFI build that I use for my system. The SSDTs are specifically built for my system, so use with caution. This build also contains my custom SSDT to device-id spoof my GPU, link for the repository is [here](https://github.com/TylerLyczak/Unsupported-6900XT-Hackintosh-Fix).
 
 
 ## Mac Version
----
 
-* Mac OS Sonoma 14.5.0
+* Mac OS Sequoia 15.7.1
 
-
-## Hardware
+# Hardware
 ---
 
 #### Motherboard
@@ -48,8 +45,11 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
 * Corsair RM 850x
 
 
-## Not Working
+# Not Working
 ---
+
+* USBMap doesn't work with the blue ports since they are controleld by ASM107a chip
+* Wi-Fi is broken in Sequoia currently with Airportitlwm
 * Going to sleep causes some Wi-Fi issues. It happened sometimes but not all the time.
 
 
@@ -59,65 +59,63 @@ This repository holds my current EFI build that I use for my system. The SSDTs a
     * Have no thunderbolt devices to test
 
 
-## Version List
+# Version List
 ---
 
 ### OpenCore
-* OpenCore 1.0.0 RELEASE and DEBUG
+* OpenCore 1.0.5 RELEASE and DEBUG
     * [Link](https://github.com/acidanthera/OpenCorePkg)
 
 ### Kext List
 * Airportitlwm 
-    * v2.3.0-alpha (Sonomaa version)
+    * Currently not working
+    * v2.3.0-stable
     * [Link](https://github.com/OpenIntelWireless/itlwm)
 * AppleALC
-    * v1.9.0
+    * v1.9.5
     * [Link](https://github.com/acidanthera/AppleALC)
 * CPUFriend
-    * v1.2.7
+    * v1.3.0
     * Also has CPUFriendDataProvider for power configs for 10850k
     * [Link](https://github.com/acidanthera/CPUFriend)
 * IntelBluetoothFirmware
     * v2.4.0
     * [Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-* ~~IntelBluetoothInjector~~
-    * ~~v2.2.0~~
-    * ~~[Link](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)~~
 * BlueToolFixup
-    * v2.6.8
+    * v2.7.1
     * [Link](https://github.com/acidanthera/BrcmPatchRAM)
 * IntelMausi
-    * v1.0.7
+    * v1.0.8
     * [Link](https://github.com/acidanthera/IntelMausi)
 * Lilu
-    * v1.6.7
+    * v1.7.1
     * [Link](https://github.com/acidanthera/Lilu)
 * NVMeFix
-    * v1.1.1
+    * v1.1.3
     * [Link](https://github.com/acidanthera/NVMeFix)
 * RTCMemoryFixup
     * v1.0.7
     * [Link](https://github.com/acidanthera/RTCMemoryFixup)
 * SMCProcessor
-    * v1.3.2
+    * v1.3.7
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * SMCSuperIO
-    * v1.3.2
+    * v1.3.7
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * USBToolBox
     * v1.1.1
     * [Link](https://github.com/USBToolBox/kext)
-* UTBMap
+* USBMap
     * Mapping of the ports for motherboard
-    * [Link](https://github.com/USBToolBox/kext)
+    * [Link](https://github.com/corpnewt/USBMap)
 * VirtualSMC
-    * v1.3.0
+    * v1.3.7
     * [Link](https://github.com/acidanthera/VirtualSMC)
 * WhateverGreen
-    * v1.6.6
+    * v1.7.0
     * [Link](https://github.com/acidanthera/WhateverGreen)
 * CpuTscSync
-    * v1.1.0
+    * v1.1.2
     * [Link](https://github.com/acidanthera/CpuTscSync)
 
 
